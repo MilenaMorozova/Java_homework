@@ -1,6 +1,6 @@
 public class IncorrectInputException extends Exception {
 
-    public IncorrectInputException() {
-        super("Incorrect input");
+    public IncorrectInputException(String message) {
+        super("Incorrect input " + message);
     }
 }
