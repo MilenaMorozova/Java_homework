@@ -1,35 +1,35 @@
 # Проект сортировки картинок
 ### Сортирует картинки и считает коэффициент разности двух картинок.
 * Внешний вид(при запуске приложения):  
-![](programm look/main_window.png)  
+![](programm%20look/main_window.png)  
 ### Функции:
-`Добавление картинки`:  
+**`Добавление картинки`**:  
 Можно добавить сразу несколько картинок.
-![](programm look/choose_files.png)
+![](programm%20look/choose_files.png)
   
-![](programm look/loaded_images.png)  
+![](programm%20look/loaded_images.png)  
 
-`Увеление выбранной картинки`:  
-![](programm look/selected_image.png)  
+**`Увеличение выбранной картинки`**:  
+![](programm%20look/selected_image.png)  
 
-`Удаление картинки`:  
+**`Удаление картинки`**:  
 Удалить картинку можно только одну, выделенную.
-![](programm look/delete_image.png)  
+![](programm%20look/delete_image.png)  
 
-![](programm look/after_delete.png)
+![](programm%20look/after_delete.png)
 
-`Сортировка картинок`:  
+**`Сортировка картинок`**:  
 У таблицы есть встроенная сортировка для каждого столбца(стоит только дважды кликнуть на нужный столбец).
 Вверху я добавила свою сортировку, чтобы показать свои.  
 * Есть сортировка по имени:  
-![](programm look/sort_by_name.png)  
+![](programm%20look/sort_by_name.png)  
 * Есть сортировка по размеру файла(Кб):  
-![](programm look/sort_by_size.png)  
+![](programm%20look/sort_by_size.png)  
 
-`Сравнение картинок`:  
-![](programm look/compare_image.png)  
+**`Сравнение картинок`**:  
+![](programm%20look/compare_image.png)  
 
-![](programm look/before_comparison.png)  
+![](programm%20look/before_comparison.png)  
 
 Сравнение картинок осуществляется поиском среднеквадратического отклонения пикселей одного изображения от другого.  
 Перед сравнением картинки приводятся к одному размеру 32х32. 
