@@ -8,7 +8,6 @@ import java.util.Comparator;
 public class MyImage{
 
     private String name;
-    private String pathToFile;
     private double sizeInKilobytes;
 
     private BufferedImage source;
@@ -16,13 +15,12 @@ public class MyImage{
     private int height;
 
     public MyImage(String pathToFile) {
-        this.pathToFile = pathToFile;
         try {
             File file = new File(pathToFile);
             name = file.getName();
             sizeInKilobytes = file.length() / 1024.;
 
-            source = ImageIO.read(new File(pathToFile));
+            source = ImageIO.read(file);
             width = source.getWidth();
             height = source.getHeight();
         } catch (IOException e) {
@@ -49,10 +47,6 @@ public class MyImage{
 
     public int getHeight(){
         return height;
-    }
-
-    public String getPathToFile() {
-        return pathToFile;
     }
 
     @Override
