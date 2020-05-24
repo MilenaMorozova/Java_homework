@@ -92,7 +92,7 @@ public class MyImage{
             }
         }
 
-        return (int) Math.sqrt(result/sizeForResize*sizeForResize);
+        return (int) Math.sqrt(result/(sizeForResize*sizeForResize));
     }
 
     public static Comparator<MyImage> NameComparator = new Comparator<MyImage>() {
